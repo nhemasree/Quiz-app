@@ -39,9 +39,49 @@ const quizData = [
         d: "None of these",
         correct: "c",
     },
+    {
+        question: "which type of programming does python support?",
+        a: "Object-oriented programming",
+        b: "Structured Programming",
+        c: "Functional Programming",
+        d: "All of the Mentioned",
+        correct: "d",
+    },
+    {
+       question: "what is the smallest header in HTML by default?",
+       a: "h1",
+       b: "h2",
+       c: "h6",
+       d: "h4",
+       correct: "c",
+    },
+    {
+        question: "How to create a checkbox in HTML?",
+        a: "<input type = checkbox>",
+        b: "<input type = button>",
+        c: "<checkbox>",
+        d: "<input type = check>",
+       correct: "a",
+    },
+    {
+        question: "Which package contains the Random class?",
+        a:"java.util package",
+        b:"java.lang package",
+        c:"java.awt package",
+        d:"java.io package",
+        correct:"a",
+    
+    },
+    {
+        question: " What do you mean by one to many relationships?",
+        a: "One class may have many teachers",
+        b: "One teacher can have many classes",
+        c: "Many classes may have many teachers",
+        d: "Many teachers may have many classes",
+        correct: "b",
+    },
 ];
-
-const quiz = document.getElementById('quiz')
+const quiz = document.getElementById('quiz') 
 const answerEls = document.querySelectorAll('.answer')
 const questionEl = document.getElementById('question')
 const a_text = document.getElementById('a_text')
