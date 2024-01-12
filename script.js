@@ -31,6 +31,14 @@ const quizData = [
         d: "none of the above",
         correct: "b",
     },
+    {
+        question: "who developed Python Programming Language?",
+        a: "Wick van Rossum",
+        b: "Rasmus Lerdorf",
+        c: "Guido van Rossum",
+        d: "None of these",
+        correct: "c",
+    },
 ];
 
 const quiz = document.getElementById('quiz')
